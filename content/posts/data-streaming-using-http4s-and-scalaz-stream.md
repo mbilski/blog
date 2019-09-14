@@ -1,6 +1,8 @@
 ---
-title: Streaming of data using http4s and scalaz-stream
+title: Data streaming using http4s and scalaz-stream
 date: 2016-01-16 19:38:59
+aliases:
+- /2016/01/16/Streaming-data-using-http4s-and-scalaz-stream/
 ---
 
 [Http4s](http://http4s.org/) and [scalaz-stream](https://github.com/functional-streams-for-scala/fs2) are good alternatives for akka-http and akka-stream. In this post, I show how easy it is to stream data over HTTP using them. Streaming allows to operate on heavy data without the necessity to store it in the memory. With http4s, it is just a few lines of code.

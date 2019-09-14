@@ -1,6 +1,8 @@
 ---
 title: For-comprehensions with monad transformers
 date: 2016-05-14 14:33:13
+aliases:
+- /2016/05/14/for-comprehensions-with-combined-monads/
 ---
 
 The code should be easy to read. One of the programming principles to make the code more readable is to avoid nested operations. The so-called *pyramid of doom* does not only refers to *callback hell* in javascript but ofter appear in scala as well. Here, I describe how to make the for-comprehensions more elegant when using monad transformers in scala.
