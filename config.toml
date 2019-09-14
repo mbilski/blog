@@ -1,0 +1,36 @@
+baseURL = "https://immutables.pl/"
+languageCode = "en-us"
+title = "immutables"
+theme ="hyde-hyde"
+disqusShortname = "immutables"
+
+[permalinks]
+  posts = "/:year/:month/:day/:title/"
+
+[params]
+  author = "Mateusz Bilski"
+  title = "immutables"
+  description = "Mateusz Bilski"
+  authorimage = "/img/logo.png"
+  copyright = "mbilski"
+  license = "CC BY-SA 4.0"
+  licenseURL = "https://creativecommons.org/licenses/by-sa/4.0"
+  highlightjs = true
+  postNavigation = false
+
+[params.social]
+  twitter = "mateuszbilski"
+  github = "mbilski"
+  instagram = "mateuszbilski"
+  linkedin = "mateusz-bilski"
+
+[[menu.main]]
+    name = "Posts"
+    weight = 100
+    identifier = "posts"
+    url = "/posts/"
+[[menu.main]]
+    name = "About"
+    identifier = "about"
+    weight = 300
+    url = "/about/"
