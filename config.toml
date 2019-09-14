@@ -1,7 +1,10 @@
 languageCode = "en-us"
 title = "immutables"
 theme ="hyde-hyde"
+
 disqusShortname = "immutables"
+googleAnalytics = "UA-57098288-1"
+enableRobotsTXT = true
 
 [permalinks]
   posts = "/:year/:month/:day/:title/"
