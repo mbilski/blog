@@ -1,4 +1,3 @@
-baseURL = "https://immutables.pl/"
 languageCode = "en-us"
 title = "immutables"
 theme ="hyde-hyde"
