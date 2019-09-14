@@ -2,20 +2,9 @@
 <div class="sidebar">
   <div class="container {{ with .Site.Params.sidebarSticky }}sidebar-sticky{{ end }}">
     <div class="sidebar-about">
-        {{ if and (isset .Site.Params "authorimage") (not (isset .Site.Params.social "gravatar")) }}
-        {{ with .Site.Params.authorimage }}
-        {{ $strippedSlash := ($.Site.Params.authorimage | replaceRE "^(/)+(.*)" "$2") }}
-        {{ $authorImage := (printf "%s%s" $.Site.BaseURL $strippedSlash) }}
-        <div class="author-image">
-          <img src="{{$authorImage}}" alt="Author Image" class="img--logo img--headshot element--center">
-        </div>
-        {{ end }}
-      {{ end }}
-      {{ with .Site.Params.social.gravatar}}
-        <div class="author-image">
-          <img src="https://www.gravatar.com/avatar/{{md5 .}}?s=240&d=mp" class="img--circle img--headshot element--center" alt="gravatar">
-        </div>
-      {{ end }}
+      <div class="author-image">
+        <img src="/img/logo.png" alt="Author Image" class="img--logo img--headshot element--center">
+      </div>
       <span class="site__title">
         <a href="{{ .Site.BaseURL }}">{{ .Site.Title }}</a>
       </span>
