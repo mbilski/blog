@@ -6,8 +6,8 @@ showComments: false
 Backend Software Engineer from Wroclaw, Poland.
 
 ## Experience
-
-* 2018 - now Senior Software Engineer, [Cloudentity](https://cloudentity.com/)
+* 2020 - now  Principal Software Engineer, [Cloudentity](https://cloudentity.com)
+* 2018 - 2020 Senior Software Engineer, [Cloudentity](https://cloudentity.com/)
 * 2017 - 2017 Senior Scala Developer, [William Hill](https://www.williamhill.com/)
 * 2016 - 2017 Scala Developer, [Scalac](https://scalac.io/)
 * 2012 - 2016 Java Developer, [Syntegrity Networks](http://syntegritynet.com/)
